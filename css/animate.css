@@ -1,0 +1,17 @@
+/* CONFIGURAÇÃO DAS ANIMAÇÕES */
+
+
+.slide-form {
+    animation-duration: 1s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from { /* DE: */
+        margin-top: -100%;
+    }
+
+    to { /* PARA */
+        margin-top: 1%;
+    }
+}

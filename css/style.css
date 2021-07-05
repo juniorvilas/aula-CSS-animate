@@ -1,0 +1,72 @@
+/* BOAS PRATICAS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:black;
+}
+
+/* CONFIGURAÇÃO DA DIV FORM */
+
+
+
+#form {
+    border: 2px solid lightgray; /* ESTILO DA BORDA */
+    background-color: black; /* COR DO FUNDO */
+    padding: 30px; /* INFLADA */
+    max-width: 400px; /* LARGURA MAXIMA */
+    margin: 20px auto; /* MARGEM */
+    border-radius: 5px; /* ARRENDONDA OS CANTOS */
+}
+
+h1 {
+    margin: 0px 0px 20px; /* MARGEM */
+    color:purple; /* COR DO TEXTO */
+    font-family: 'Poppins', sans-serif; /* FONTE */
+    transition: color 0.3s ease-in-out; /* TRANSIÇÃO */
+  /*   transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: ; */
+}
+
+/* CONFIGURAÇÃO DOS INPUTS */
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    
+    width: 100%; /* LARGURA */
+    border: none; /* SEM BORDA */
+    padding: 10px; /* INFLADA */
+    outline: none; /* TIRA AQUELA SELEÇÃO DO CAMPO */
+    background: none; /* TIRA O BACKGROUND PADRÃO */
+    color: white; /* COR DO TEXTO PARA BRANCO */
+    border-bottom: 1px solid purple; /* LINHA SÓ EM BAIXO */
+    margin-bottom: 30px; /* ESPAÇAMENTO EMBAIXO */
+    transition: all 0.3s ease-in-out;
+
+}
+
+::placeholder {
+    color: lightgray;
+}
+
+
+/* CONFIGURAÇÃO DOS BOTÕES */
+
+.btn {
+    background-color: purple; /* COR DO FUNDO */
+    color: white; /* COR */
+    border: none; /* SEM BORDA */
+    padding: 10px; /* INFLADA */
+    outline: none; /* TIRA AQUELA SELEÇÃO DO CAMPO */
+    border-radius: 5px; /* ARREDONDA OS CANTOS */
+    transition: all 0.3s ease-in-out; /* TRANSIÇÃO DO HOVER */
+    cursor: pointer; /* COLOCAR UMA MÃO NO CURSOR DO MOUSE */
+    
+}
+

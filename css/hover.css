@@ -1,0 +1,24 @@
+/* CONFIGURAÇÕES DO HOVER */
+
+
+/* TITULO */
+h1:hover {
+     color:white;
+}
+
+
+/* INPUT -CAMPOS DE PREENCHIMENTO */
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="password"]:hover {
+    background-color:purple;
+    border-radius: 3px;
+}
+
+
+/* CONFIGURAÇÕES DOS BOTÕES */
+.btn:hover {
+    background-color:white;
+    color: purple;
+    font-weight: bold;
+}
